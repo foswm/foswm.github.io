@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شاهنامه‌ی بنیادین فردوسی - آغاز</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Basic Reset and Body Styling */
+        body {
+            font-family: 'Vazirmatn', Tahoma, sans-serif; /* Use Vazirmatn, fallback to Tahoma */
+            direction: rtl; /* Right-to-left direction for Persian */
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light background color */
+            color: #212529; /* Default text color */
+            line-height: 1.8; /* Improve readability */
+        }
+
+        /* Main container for centering content */
+        .container {
+            max-width: 800px; /* Max width of the content area */
+            margin: 20px auto; /* Center the container horizontally with some top/bottom margin */
+            padding: 20px;
+            background-color: #ffffff; /* White background for content */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            border-radius: 8px; /* Slightly rounded corners */
+        }
+
+        /* Green Header Box Styling (using Flexbox for layout) */
+        .header-box {
+            background-color: #e6f5e6; /* Light green background */
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border: 1px solid #c3e6cb; /* Light green border */
+            border-radius: 5px;
+            display: flex; /* Enable Flexbox */
+            justify-content: space-between; /* Space out items: Prev on right, Content in middle, Next on left (in RTL) */
+            align-items: center; /* Vertically align items in the middle */
+        }
+
+        /* Styling for the central content within the header */
+        .header-content {
+           text-align: center; /* Center the text inside this block */
+           flex-grow: 1; /* Allow this section to take available space if needed */
+        }
+
+
+        .header-content h1 {
+            margin: 0 0 5px 0;
+            font-size: 1.5em; /* Larger font size for main title */
+            font-weight: bold;
+            color: #155724; /* Darker green color */
+        }
+
+        .header-content p {
+            margin: 0;
+            font-size: 1em;
+            color: #155724; /* Darker green color */
+        }
+
+        /* Styling for the Previous/Next navigation links */
+        .nav-link {
+            color: #155724; /* Match text color */
+            text-decoration: none; /* Remove underline */
+            font-size: 0.9em;
+            padding: 0 10px; /* Add some horizontal padding */
+            white-space: nowrap; /* Prevent link text from wrapping */
+            flex-shrink: 0; /* Prevent links from shrinking if space is tight */
+        }
+
+        .nav-link:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+
+        /* Bismillah Styling */
+        .bismillah {
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 30px 0;
+        }
+
+        /* Separator Styling (using characters) */
+        .separator {
+            text-align: center;
+            margin: 30px 0;
+            color: #555;
+            font-size: 1.2em;
+        }
+
+        /* Poem Container Styling */
+        .poem {
+            margin-bottom: 20px;
+        }
+
+        /* Couplet (Beyt) Container */
+        .couplet {
+            margin-bottom: 25px; /* Space below each couplet (including meaning box) */
+        }
+
+        /* Container for the two hemistichs (Mesra) */
+        .hemistichs {
+            display: flex; /* Use flexbox to place hemistichs side-by-side */
+            justify-content: space-between; /* Put space between the two parts */
+            margin-bottom: 10px; /* Space between poem lines and meaning box */
+            font-size: 1.1em; /* Slightly larger font for poetry */
+        }
+
+        /* Individual Hemistich (Mesra) Styling */
+        .hemistich {
+            width: 48%; /* Each hemistich takes slightly less than half width */
+            text-align: center; /* Ensure text is right-aligned */
+        }
+
+        /* Meaning Box Styling (similar to header box) */
+        .meaning-box {
+            background-color: #e6f5e6; /* Light green background */
+            padding: 10px 15px;
+            border: 1px solid #c3e6cb; /* Light green border */
+            border-radius: 5px;
+            font-size: 0.95em; /* Slightly smaller font for meaning */
+            color: #155724; /* Darker green color */
+            line-height: 1.6;
+        }
+
+        .meaning-box p {
+            margin: 0; /* Remove default paragraph margin inside the box */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header-box">
+            <a href="./index.html" class="nav-link prev-link">→ پیشین</a>
+
+            <div class="header-content">
+                <h1>شاهنامه‌ی بنیادین فردوسی</h1>
+                <p>برگرداننده: <a href="https://mahdi0dev.github.io/" target="_blank">امیر مهدی صالحی</a></p> <p>آغاز نبیگ</p>
+            </div>
+
+            <a href="./soon.html" class="nav-link next-link">پسین ←</a>
+        </div>
+
+        <div class="separator">◆ ◆ ◆</div>
+
+        <div class="poem">
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">بنامِ خداوندِ جان و خرد</p>
+                    <p class="hemistich hemistich-2">کزین برتر اندیشه برنگذرد</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> با نام خدایی آغاز می‌کنم که خدای جان و اندیشه است؛ چرا که از دید من، چیزی از این بهتر برای یاد آوردن از او، هستی ندارد.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">خداوندِ نام و خداوندِ جای</p>
+                    <p class="hemistich hemistich-2">خداوندِ روزی‌ده رهنمای</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> خدایی که خدای نامداری و خوشنامی و جایگاه برتر است؛ خدایی که هم روزی‌ده آدم‌هاست و هم راهنمای آنها.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">خداوندِ گیهان و گردان سپهر</p>
+                    <p class="hemistich hemistich-2">فروزندهٔ ماه و ناهید و مهر</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> خدایی که خداوند همهٔ جهان و آسمان چرخنده است. کسی که ماه و خورشید و ستارگان را روشنی بخشیده است.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">ز نام و نشان و گمان برتر است</p>
+                    <p class="hemistich hemistich-2">نگارندهٔ برشده پیکر است</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> او برتر از آن است که هتا بتوان با نام‌ها او را شناخت، یا شناسه و نشانی او را داد، یا هتا در اندیشهٔ ما بگنجد. او کسی است که چُخت آسمان را نگارگری و آذین کرده است.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">به بینندگان آفریننده را</p>
+                    <p class="hemistich hemistich-2">نبینی مرنجان دو بیننده را</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> با چشمانت نمی‌توانی خدا را ببینی؛ چشمانت را آزار نده.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">نیابد بدو نیز اندیشه راه</p>
+                    <p class="hemistich hemistich-2">که او برتر از نام و از جایگاه</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> سگال و اندیشه هم از یادگرفتن او ناتوان است؛ چون نه می‌توان او را ارج کرد و نه در جایی نهاده شده است.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">سخن هر چه زین گوهران بگذرد</p>
+                    <p class="hemistich hemistich-2">نیابد بدو راه جان و خرد</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> خرد ما تنها به چیزی می‌رسد که در چارچوب آخشیج‌های گیتایی باشد.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">خرد را و جان را همی سنجد او</p>
+                    <p class="hemistich hemistich-2">در اندیشهٔ سَخته کِی گُنجد او؟</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> او کسی است که خودش جان و خرد انسان‌ها را ارزیابی می‌کند. او چگونه می‌تواند در چارچوبِ کران‌مندِ خردِ انسان‌ها بگنجند؟</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">ستودن نداند کس او را چو هست</p>
+                    <p class="hemistich hemistich-2">میانْ بندگی را ببایدْت بست</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> خداوند را نمی‌توان آن گونه که هست ستود؛ تو تنها باید بکوشی تا او را در اندازهٔ توانت بندگی و ستایش کنی.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">خرد گر سخن برگزیند همی</p>
+                    <p class="hemistich hemistich-2">همان را ستاید که بیند همی</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> اگر اندیشهٔ ما بخواهد بر زبان روانه شود، تنها می‌تواند دربارهٔ چیزی سخن بگوید و چیزی را ارج کند که توان دیدنش را دارد.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">بدین آلت رای و جان و زبان</p>
+                    <p class="hemistich hemistich-2">ستود آفریننده را کِی توان؟</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> با ابزارهایی همچون سگال و اندیشه و توان و زبان انسانی، هرگز نمی‌توان خداوند را به درستی ستایش کرد.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">به هستیش باید که خستو شوی</p>
+                    <p class="hemistich hemistich-2">ز گفتار بی‌کار یک سو شوی</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> تو تنها می‌توانی به بودن خداوند خستو شوی و از سخنان بیهوده در این‌باره دوری کنی.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">پرستنده باشیّ و جوینده راه</p>
+                    <p class="hemistich hemistich-2">به فرمان‌ها ژرف کردن نگاه</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> تو تنها می‌توانی یک پرستندهٔ خوب باشی و به دنبال پیدا کردن راه درست. و در فرمان‌های خداوند ژرف‌نگری و اندیشه کنی.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">توانا بود هر که دانا بود</p>
+                    <p class="hemistich hemistich-2">ز دانش دل پیر برنا بود</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> هر کس که دانا باشد، توانا خواهد بود؛ از دانش، دل پیر هم جوان خواهد شد.</p>
+                </div>
+            </div>
+
+            <div class="couplet">
+                <div class="hemistichs">
+                    <p class="hemistich hemistich-1">از این پرده برتر سخن‌گاه نیست</p>
+                    <p class="hemistich hemistich-2">ز هستی مر اندیشه را راه نیست</p>
+                </div>
+                <div class="meaning-box">
+                    <p><strong>چم:</strong> دربارهٔ چیزهای فراسویی، نمی‌توان به درستی سخن گفت. خرد انسان‌ها از جهان هستی به آن سوتر نمی‌رسد و به آن راه ندارد.</p>
+                </div>
+            </div>
+
+            </div><div class="separator">◆ ◆ ◆</div>
+
+    </div> </body>
+</html>
